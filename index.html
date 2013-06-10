@@ -10,28 +10,29 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/normalize.css">
+        
         <link rel="stylesheet" href="css/main.css">
+
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!-- header -->
         <header>
             <section class="wrap">
-                <h1 id="logo"></h1>
+                <a href="/"><h1 id="logo"></h1></a>
                 <nav class="nav-header">
                     <ul>
-                        <li>Solutions
+                        <li class="bt-solutions">Solutions <span>▼</span>
                             <ul>
                                 <li>1</li>
                                 <li>2</li>
                                 <li>3</li>
                             </ul>
                         </li>
-                        <li>About</li>
-                        <li>Contact Us</li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
                         <li class="flag-header">
-                            U.S. 
+                            <a>U.S.</a><span>▼</span>
                             <ul>
                                 <li>BR</li>
                             </ul>
@@ -43,7 +44,8 @@
         <!-- /header -->
         <!-- banner -->
         <section class="dark">
-            <article class="wrap banner">
+            <div class="bg-banner"></div>
+            <article class="wrap" id="banner">
                 <h2>Visual Contact Center</h2>
                 <h3>We empower Contact Center Managers with real-time<br>visual understanding of their operations.</h3>
                 <div class="load-video"></div>
@@ -56,12 +58,13 @@
                         <input type="submit" Value="Schedule a Demo!">
                     </form>
                 </section>
+                <div class="clear"></div>
             </article>
         </section>
         <!-- /banner -->
         <!-- the-tile -->
         <section class="gradient-silver"> 
-            <article class="wrap the-tile">
+            <article class="wrap" id="the-tile">
                 <section class="slide visualize">
                     <div class="content-left">
                         <h1>The Tile</h1>
@@ -80,26 +83,26 @@
                         <h2>Understand<br>the story</h2>
                         <p>
                             As operations take place, The Tile measures critical KPI’s according to performance thresholds, in real time.
-                            <br><br>
-                            <span>
-                                Example: An agent receives a new call and takes longer than usual to identify the issue. As more calls come in, the agent’s availability score drops. Total talk time is graded poorly and average talk time is also affected. At the end of the call, the agent’s overall score drops. This is an unusual call for this agent who has great performance history. Investigation and training on the specific scenario encountered is recommended.
-                            </span>                
+                        </p>
+                        <p class="text-small">
+                            Example: An agent receives a new call and takes longer than usual to identify the issue. As more calls come in, the agent’s availability score drops. Total talk time is graded poorly and average talk time is also affected. At the end of the call, the agent’s overall score drops. This is an unusual call for this agent who has great performance history. Investigation and training on the specific scenario encountered is recommended.
+                        </p>                
                         </p>
                     </div>
                     <figure class="img-understand"></figure>
                 </section>
+                <div class="clear"></div>
                 <ul class="nav-slide">
-                    <li class="btn-thetile">The Tile</li>
-                    <li class="btn-undestand">Understand the story</li>
+                    <li class="btn-thetile atv">The Tile</li>
+                    <li class="btn-understand">Understand the story</li>
                 </ul>
             </article>
         </section>
         <!-- /the-tile -->
         <!-- behavior -->
         <section class="dark">
-            <article class="wrap behavior">
+            <article class="wrap" id="behavior">
                 <section class="slide mosaic">
-                    <figure class="img-mosaic"></figure>
                     <div class="content-right">
                         <h1>Behavior Understanding</h1>
                         <h2>The Mosaic View</h2>
@@ -108,16 +111,15 @@
                     </div>
                 </section>
                 <section class="slide peer">
-                    <figure class="img-peer"></figure>
                     <div class="content-right">
                         <h1>Behavior Understanding</h1>
                         <h2>The Peer<br>Transparency View</h2>
                         <h3>Self-regulating behavior</h3>
                         <p>Agents have the opportunity to discreetly see how they compare to other Agents. Agents understand what is being measured and what training they need to improve. This develops a fun and competitive atmosphere based on improving performance.</p>
                     </div>
+                <div class="clear"></div>
                 </section>
                 <section class="slide recommendations">
-                    <figure class="img-recommendations"></figure>
                     <div class="content-right">
                         <h1>Behavior Understanding</h1>
                         <h2>The<br>Recommendations<br>Panel</h2>
@@ -125,8 +127,9 @@
                         <p>After all is said and done, what doesn't change stays the same. Obtain specific recommendations for key actions to take toward improvement and achievement.</p>
                     </div>
                 </section>
+                <div class="clear"></div>
                 <ul class="nav-slide">
-                    <li class="btn-mosaic">The Mosaic View</li>
+                    <li class="btn-mosaic atv">The Mosaic View</li>
                     <li class="btn-peer">The Peer Transparency View</li>
                     <li class="btn-recommendations">The Recommendations Panel</li>
                 </ul>
@@ -135,7 +138,7 @@
         <!-- /behavior -->
         <!-- dynamic-thresholds -->
         <section class="gradient-silver"> 
-            <article class="wrap dynamic">
+            <article class="wrap" id="dynamic">
                 <div class="content-left">
                     <h1>Dynamic Thresholds</h1>
                     <h2>Adjust to<br>your needs</h2>
@@ -143,23 +146,26 @@
                     The colors on the Tile and individual indicators can be adjusted for the influxes in calls during peak times and busy seasons.<br>
                     Newer agents expectations can be adjusted differently than a seasoned agent.</p>
                 </div>
-                <figure class="img-dynamic"></figure>
             </article>
+            <div class="clear"></div>
         </section>
+        <!-- /dynamic-thresholds -->
         <!-- location-intelligence -->
-        <section class="dark"> 
-            <article class="wrap location">
+        <section class="dark">
+            <div class="bg-location"></div>
+            <article class="wrap" id="location">
                 <div class="content-center">
                     <h1>Location Intelligence</h1>
                     <h2>Even more understanding</h2>
                     <p>Locations and performance of on-the-floor and at-home agents can be displayed on a Diagram or Map.<br>Layering the Map with weather or demographic information increases understanding. </p>
                 </div>
             </article>
+            <div class="clear"></div>
         </section>
         <!-- /location-intelligence -->
         <!-- tech-specs -->
         <section class="white"> 
-            <article class="wrap tech">
+            <article class="wrap" id="tech">
                 <h1>Tech Specs</h1>
                 <div class="content-left">
                     <h2>Windows</h2>
@@ -187,12 +193,14 @@
                         <li>• Minimum Screen Resolution: 1280 x 800 pixels</li>
                     </ul>
                 </div>
+            <div class="clear"></div>
             </article>
         </section>
         <!-- tech-specs -->
+        <div class="clear"></div>
         <!-- footer -->
-        <section> 
-            <article class="wrap footer">
+        <section class="footer"> 
+            <article class="wrap">
                 <section class="form-request">
                     <h2>Request a free Demo!</h2>
                     <form action="#">
@@ -209,7 +217,7 @@
                             <li>About</li>
                             <li>Contact us</li>
                             <li class="flag-footer">
-                                U.S. 
+                                <a href="#"><img src="img/assets/flag-footer.jpg" alt="Flag">U.S.</a><span>▼</span>
                                 <ul>
                                     <li>BR</li>
                                 </ul>
@@ -226,14 +234,15 @@
                                 <a href="#" class="linkedin"></a>
                             </li>
                         </ul>
+                        <div class="clear"></div>
                     </nav>
                     <div class="address">VisualCue Technologies - Orlando, FL - 32901</div>
                     <div class="copy">Copyright © 2013 VisualCue Technologies, LLC. All rights reserved.</div>
+                    <div class="clear"></div>
                 </footer>
             </article>
         </section>
         <!-- footer -->
-
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>

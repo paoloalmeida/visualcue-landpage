@@ -1,0 +1,82 @@
+/* line 17, ../../../../Program Files/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+/* line 22, ../../../../Program Files/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html { line-height: 1; }
+
+/* line 24, ../../../../Program Files/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul { list-style: none; }
+
+/* line 26, ../../../../Program Files/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 28, ../../../../Program Files/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+/* line 30, ../../../../Program Files/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote { quotes: none; }
+/* line 103, ../../../../Program Files/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+/* line 32, ../../../../Program Files/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img { border: none; }
+
+/* line 116, ../../../../Program Files/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+@font-face { font-family: 'latobold'; src: url("fonts/lato-bol.eot"); src: url("fonts/lato-bol.eot?#iefix") format("embedded-opentype"), url("fonts/lato-bol.woff") format("woff"), url("fonts/lato-bol.ttf") format("truetype"), url("fonts/lato-bol.svg#latobold") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'latolight'; src: url("fonts/lato-lig.eot"); src: url("fonts/lato-lig.eot?#iefix") format("embedded-opentype"), url("fonts/lato-lig.woff") format("woff"), url("fonts/lato-lig.ttf") format("truetype"), url("fonts/lato-lig.svg#latolight") format("svg"); font-weight: normal; font-style: normal; }
+
+/* line 38, ../sass/main.scss */
+body { font-family: Arial; font-size: 16px; color: #898989; }
+
+/* line 43, ../sass/main.scss */
+a { text-decoration: none; font-size: 14px; color: #828282; }
+
+/* line 48, ../sass/main.scss */
+span { font-size: 8px; }
+
+/* line 51, ../sass/main.scss */
+h1 { font-family: "latobold"; font-size: 30px; color: #010101; }
+
+/* line 56, ../sass/main.scss */
+h2 { font-family: "latolight"; font-size: 54px; color: #f99f1c; }
+
+/* line 61, ../sass/main.scss */
+h3 { font-family: "latolight"; font-size: 38px; color: #f99f1c; }
+
+/* line 66, ../sass/main.scss */
+.wrap { width: 1000px; margin: 0 auto; display: block; }
+
+/* line 71, ../sass/main.scss */
+header { width: 100%; display: block; height: 82px; }
+/* line 76, ../sass/main.scss */
+header #logo { background-image: url("../img/logo.jpg"); background-repeat: no-repeat; width: 236px; height: 45px; float: left; display: block; margin: 15px 0 15px; }
+/* line 85, ../sass/main.scss */
+header .nav-header { float: right; width: 330px; display: block; margin: 30px 0 0 0; }
+/* line 91, ../sass/main.scss */
+header .nav-header ul .bt-solutions { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #ececec)); background-image: -webkit-linear-gradient(#f8f8f8, #ececec); background-image: -moz-linear-gradient(#f8f8f8, #ececec); background-image: -o-linear-gradient(#f8f8f8, #ececec); background-image: linear-gradient(#f8f8f8, #ececec); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#ececec'); -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; border-bottom: 1px solid #d1d1d1; font-size: 14px; }
+/* line 99, ../sass/main.scss */
+header .nav-header ul .bt-solutions:hover { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f3f3f3), color-stop(100%, #d8d8d8)); background-image: -webkit-linear-gradient(#f3f3f3, #d8d8d8); background-image: -moz-linear-gradient(#f3f3f3, #d8d8d8); background-image: -o-linear-gradient(#f3f3f3, #d8d8d8); background-image: linear-gradient(#f3f3f3, #d8d8d8); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#d8d8d8'); }
+/* line 103, ../sass/main.scss */
+header .nav-header ul li, header .nav-header ul .bt-solutions, header .nav-header ul .flag-header { display: inline-block; padding: 5px 7px; font-size: 14px; cursor: pointer; }
+/* line 109, ../sass/main.scss */
+header .nav-header ul li a:hover, header .nav-header ul .bt-solutions a:hover, header .nav-header ul .flag-header a:hover { text-decoration: underline; }
+/* line 113, ../sass/main.scss */
+header .nav-header ul li ul, header .nav-header ul .bt-solutions ul, header .nav-header ul .flag-header ul { display: none; }
+
+/* line 121, ../sass/main.scss */
+.dark { background: #2c2c2c; width: 100%; }
+
+/* line 125, ../sass/main.scss */
+.bg-banner { background: url("../img/bg-video.png") center center no-repeat; width: 100%; height: 512px; position: absolute; z-index: 0; }
+
+/* line 132, ../sass/main.scss */
+#banner { position: relative; z-index: 1; min-height: 540px; padding-top: 30px; }
+/* line 137, ../sass/main.scss */
+#banner h2 { text-align: center; font-size: 48px; }
+/* line 141, ../sass/main.scss */
+#banner h3 { text-align: center; font-size: 24px; margin: 30px 0; color: #ffffff; }
+/* line 147, ../sass/main.scss */
+#banner .load-video { background: url('/images/play-video.png'); height: 120px; width: 116px; }

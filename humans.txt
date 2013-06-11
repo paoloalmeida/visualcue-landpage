@@ -1,12 +1,15 @@
-# TEAM
+/* TEAM */
+	
+	Creative Director: Caju
+	Contact: caju_batera@hotmail.com
+	Location: São Paulo, Brazil
 
-    <name> -- <role> -- <twitter>
+	Front-end Developer: Paolo Almeida
+	Contact: paoloalmeida@ymail.com
+	Location: São Paulo, Brazil
 
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+/* SITE */
+	
+	Language: English
+	Doctype: HTML5
+	Front-end: HTML5, CSS3, jQuery

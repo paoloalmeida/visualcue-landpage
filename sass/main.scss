@@ -96,6 +96,7 @@ header{
 	width: 100%;
 	display:block;
 	height:82px;
+	position:relative;
 	
 	#logo{
 		background-image: url("../img/logo.jpg");
@@ -105,6 +106,56 @@ header{
 	    float:left;
 	    display: block;
 	    margin:15px 0 15px;
+	}
+	.nav-mobile{
+		width:96%;
+		min-height:30px;
+		display:none;
+		position:relative;
+		margin:0 2% 15px;
+		padding:1%;
+		border:1px solid #cccccc;
+		@include border-radius(2px);
+		
+		.trigger-mobile{
+			cursor:pointer;
+			font-family:"latobold";
+			font-size:18px;
+			padding-top:5px;
+		}
+		.mobile-button{
+			background: url(../img/assets/ic-menu-responsive.jpg) no-repeat;
+			height: image-height("../img/assets/ic-menu-responsive.jpg");
+			width: image-width("../img/assets/ic-menu-responsive.jpg");
+			border:none;
+			margin-right:20px;
+			padding-top:10px;
+
+		}
+		.mobile-menu{
+			display:none;
+			margin-top:15px;
+			li{
+				a{
+					display:block;
+					padding:10px 0;
+					width:100%;
+					border-bottom:1px solid #cccccc;
+					font-weight:bold;	
+				}
+				.mobile-submenu{
+					li{
+						a{
+							padding:10px 0 10px 10%;
+							width:90%;
+							border-bottom:1px solid #cccccc;
+							font-weight:normal;
+						}
+					}
+				}
+			}
+
+		}
 	}
 	.nav-header{
 		float:right;
@@ -133,9 +184,12 @@ header{
 				a:hover{
 					text-decoration:underline;
 				}
-
 				ul{
 					display:none;
+				}
+				img{
+					float:left;
+					margin-right:10px;
 				}
 			}
 		}
@@ -177,8 +231,7 @@ header{
 	.form-request{
 		background:$orange;
 		width: 90%;
-		position:absolute;
-		bottom:0;
+		margin-top:91px;
 		padding:2% 5%;
 		h2{
 			color:#ffffff;
@@ -221,7 +274,6 @@ header{
 			}
 		}
 	}
-	
 }
 
 .content-left{
@@ -254,6 +306,7 @@ header{
 		display:block;
 		padding:40px 0 0;
 		height:40px;
+		cursor: pointer;
 	}
 }
 
@@ -268,24 +321,23 @@ header{
 	display:block;
 	position:relative;
 
+	.visualize{
+		background:url("../img/img-visualize.png") right 50px no-repeat;
+		height:600px;
+	}
+	.understand{
+		background: url("../img/img-understand.gif") right 50px no-repeat;
+		height:600px;
+	}
 	.slide{
 		width:100%;
 		display:block;
 		h2{
 			margin:10px 0 20px;
 		}
-		.img-visualize{
-			background: url("../img/img-visualize.png") no-repeat;
-			width: image-width("../img/img-visualize.png");
-			height: image-height("../img/img-visualize.png");
-			float:right;
-			margin-top:50px;
-			display: block;
-		}
 		.img-understand{
-			background: url("../img/img-understand.png") no-repeat;
-			width: image-width("../img/img-understand.png");
-			height: image-height("../img/img-understand.png");
+			width: image-width("../img/img-understand.gif");
+			height: image-height("../img/img-understand.gif");
 			float:right;
 			margin-top:50px;
 			display: block;
@@ -315,7 +367,7 @@ header{
 		}
 	}
 
-	.visualize{
+	.understand{
 		display:none;
 	}
 }
@@ -373,8 +425,8 @@ header{
 			background: url("../img/assets/bt-gray.png") no-repeat;
 		}
 	}
-	.peer, .mosaic{
-		display:none
+	.peer, .recommendations{
+		display:none;
 	}
 	
 }

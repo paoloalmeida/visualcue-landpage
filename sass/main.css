@@ -1,22 +1,36 @@
 /*
-Syntax error: Invalid CSS after "			background:": expected expression (e.g. 1px, bold), was "}"
-        on line 121 of C:/Apache24/htdocs/visualcue/visualcue-landpage/sass/main.scss
+Syntax error: Invalid CSS after "					display": expected "{", was "}"
+        on line 200 of C:/Apache24/htdocs/visualcue/visualcue-landpage/sass/main.scss
 
 Backtrace:
-C:/Apache24/htdocs/visualcue/visualcue-landpage/sass/main.scss:121
+C:/Apache24/htdocs/visualcue/visualcue-landpage/sass/main.scss:200
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1136:in `expected'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/script/lexer.rb:199:in `expected!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/script/parser.rb:471:in `assert_expr'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/script/parser.rb:49:in `parse'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1010:in `sass_script'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:870:in `value!'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:847:in `declaration'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:570:in `block in declaration_or_ruleset'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1072:in `expected'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1067:in `tok!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:522:in `block'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:517:in `ruleset'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:579:in `block in declaration_or_ruleset'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1110:in `call'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1110:in `rethrow'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:580:in `declaration_or_ruleset'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:542:in `block_child'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:531:in `block_contents'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:534:in `block_contents'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:523:in `block'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:517:in `ruleset'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:579:in `block in declaration_or_ruleset'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1110:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1110:in `rethrow'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:580:in `declaration_or_ruleset'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:542:in `block_child'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:534:in `block_contents'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:523:in `block'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:517:in `ruleset'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:579:in `block in declaration_or_ruleset'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1110:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:1110:in `rethrow'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:580:in `declaration_or_ruleset'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:542:in `block_child'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:534:in `block_contents'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:523:in `block'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:517:in `ruleset'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.5/lib/sass/scss/parser.rb:579:in `block in declaration_or_ruleset'
@@ -67,4 +81,4 @@ C:/Ruby193/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"			background:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 121 of C:/Apache24/htdocs/visualcue/visualcue-landpage/sass/main.scss"; }
+  content: "Syntax error: Invalid CSS after \"					display\": expected \"{\", was \"}\"\A         on line 200 of C:/Apache24/htdocs/visualcue/visualcue-landpage/sass/main.scss"; }

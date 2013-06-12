@@ -41,6 +41,7 @@ $dark:#272627;
 $orange:#f99f1c;
 $silver:#5d5d5d;
 
+// pre configs
 
 body{
 	font-family: Arial;
@@ -92,6 +93,9 @@ p{
 	width:100%;
 	background:#ffffff;
 }
+
+// header
+
 header{
 	width: 100%;
 	display:block;
@@ -175,6 +179,11 @@ header{
 				@include background-image(linear-gradient(#f3f3f3, #d8d8d8));
 				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#d8d8d8');
 			}
+			// temporário
+			.flag-header{
+				float:right;
+			}
+			// /temporário
 			li, .bt-solutions, .flag-header{
 				display: inline-block;
 				padding:5px 7px;
@@ -186,17 +195,40 @@ header{
 				}
 				ul{
 					display:none;
+					background:#E4E4E4;
+					position:relative;
+					top:6px;
 				}
+
 				img{
 					float:left;
 					margin-right:10px;
 				}
 			}
+			
 		}
 	}
 
 }
-
+.flag-footer ul{
+	display:block;
+	background:#E4E4E4;
+	position:absolute;
+	top:6px;
+}
+.flag-footer:hover ul{
+	display:block !important;
+}
+.flag-header ul{
+	display:none;
+	background:#E4E4E4;
+	position:relative;
+	top:6px;
+}
+.flag-header:hover ul{
+	display:block !important;
+}
+// banner
 
 .bg-banner{
 	background:url("../img/bg-video.png") center center no-repeat;
@@ -204,6 +236,10 @@ header{
 	height:512px;
 	position:absolute;
 	z-index:0;
+}
+.smooth-video{
+	background-color:$dark;
+	width: 100%;
 }
 #banner{
 	position: relative;
@@ -227,6 +263,25 @@ header{
 		display:block;
 		margin:50px auto;
 		cursor:pointer;
+	}
+	.load-video-mobile{
+		background: url(../img/play-video.png) no-repeat;
+		height: image-height("../img/play-video.png");
+		width: image-width("../img/play-video.png");
+		display:none;
+		margin:50px auto;
+		
+		a{
+			height: image-height("../img/play-video.png");
+			width: image-width("../img/play-video.png");
+			display:block;
+		}
+	}
+	.video{
+		width: 1000px;
+		height: 563px;
+		margin:0 auto;
+		display:none;
 	}
 	.form-request{
 		background:$orange;
@@ -275,9 +330,8 @@ header{
 		}
 	}
 }
-
 .content-left{
-	width: 35%;
+	width: 36%;
 	float:left;
 	display:block;
 	margin:60px 0 0 0;

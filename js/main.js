@@ -1,11 +1,5 @@
 jQuery(document).ready(function($) {
 
-// Video
-
-	$(".load-video").click(function(){
-		$(".bg-banner, #banner .form-request").fadeOut();
-	});
-
 // Slides
 
 	$(".btn-thetile").click(function(){
@@ -51,4 +45,13 @@ jQuery(document).ready(function($) {
 		});
 	});
 
+	// Play Video
+
+	$(".load-video").click(function(){
+		$(".smooth-video").animate({ backgroundColor: "#000000"}, 1000);
+		$(".bg-banner, .load-video, .form-request, #banner h2, #banner h3").delay(800).fadeOut("slow");
+		$("#banner").delay(1500).css("padding-top", "0px");
+		$(".video").delay(1200).fadeIn("slow");
+	});
+	
 });

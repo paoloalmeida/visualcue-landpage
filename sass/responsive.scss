@@ -46,6 +46,12 @@
 			}
 		}
 	}
+	.load-video{
+		display:none !important;
+	}
+	.load-video-mobile{
+		display:block !important;
+	}
 	.nav-slide{
 		font-size:18px;
 	}
@@ -186,6 +192,12 @@
 			}
 		}
 	}
+	.load-video{
+		display:none !important;
+	}
+	.load-video-mobile{
+		display:block !important;
+	}
 	.content-left{
 		display: block;
 	    float: left;
@@ -325,6 +337,12 @@
 			float:none !important;
 		}
 	}
+	.load-video{
+		display:none !important;
+	}
+	.load-video-mobile{
+		display:block !important;
+	}
 	.nav-header{
 		display:none !important;
 	}
@@ -352,7 +370,7 @@
 			margin:30px auto !important;
 		}
 		.form-request{
-			height:224px;
+			height:244px;
 			margin-top:0px;
 			
 			h2{
@@ -438,7 +456,7 @@
 	}
 	.footer{
 		.form-request{
-			height:224px;
+			height:244px;
 			margin-top:0px;
 			
 			h2{

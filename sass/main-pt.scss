@@ -226,6 +226,11 @@ header{
 	position:relative;
 	top:6px;
 }
+.flag-header ul li{
+	width:50px;
+	margin: 0 auto;
+	text-align:center;
+}
 .flag-header:hover ul{
 	display:block !important;
 }
@@ -277,6 +282,14 @@ header{
 			width: image-width("../img/play-video.png");
 			display:block;
 		}
+	}
+	.bt-close{
+		height: image-height("../img/assets/bt-close.png");
+		width: image-width("../img/assets/bt-close.png");
+		display: none;
+		float:right;
+		margin:15px;
+		cursor:pointer;
 	}
 	.video{
 		width: 1000px;
@@ -606,7 +619,7 @@ header{
 				background:#ff7200;
 				display:block;
 				color:#ffffff;
-				font-size:19px;
+				font-size:14px;
 				float:left;
 				font-family:"latobold";
 				cursor:pointer;

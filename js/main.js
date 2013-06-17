@@ -48,10 +48,17 @@ jQuery(document).ready(function($) {
 	// Play Video
 
 	$(".load-video").click(function(){
-		$(".smooth-video").animate({ backgroundColor: "#000000"}, 1000);
-		$(".bg-banner, .load-video, .form-request, #banner h2, #banner h3").delay(800).fadeOut("slow");
-		$("#banner").delay(1500).css("padding-top", "0px");
-		$(".video").delay(1200).fadeIn("slow");
+		$(".smooth-video").animate({ backgroundColor: "#000000"}, 500);
+		$(".bg-banner, .load-video, .form-request, #banner h2, #banner h3").delay(500).fadeOut("slow");
+		$("#banner").delay(1000).animate({height: "622px", paddingTop: "0px"}, 500);
+		$(".video, .bt-close").delay(1200).fadeIn("slow");
+
 	});
-	
+	$(".bt-close").click(function(){
+		$(".smooth-video").animate({ backgroundColor: "#272627"}, 1000);
+		$("#banner .video, .bt-close").fadeOut("slow");
+		$("#banner").delay(1000).animate({height: "540px", paddingTop: "30px"}, 500);
+		$(".bg-banner, .load-video, .form-request, #banner h2, #banner h3").delay(1500).fadeIn("slow");
+		
+	});
 });

@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
 
 	$(".load-video").click(function(){
 		$(".smooth-video").animate({ backgroundColor: "#000000"}, 500);
-		$(".bg-banner, .load-video, .form-request, #banner h2, #banner h3").delay(500).fadeOut("slow");
+		$(".bg-banner, .load-video, #form-header, #banner h2, #banner h3").delay(500).fadeOut("slow");
 		$("#banner").delay(1000).animate({height: "622px", paddingTop: "0px"}, 500);
 		$(".video, .bt-close").delay(1200).fadeIn("slow");
 
@@ -58,7 +58,6 @@ jQuery(document).ready(function($) {
 		$(".smooth-video").animate({ backgroundColor: "#272627"}, 1000);
 		$("#banner .video, .bt-close").fadeOut("slow");
 		$("#banner").delay(1000).animate({height: "540px", paddingTop: "30px"}, 500);
-		$(".bg-banner, .load-video, .form-request, #banner h2, #banner h3").delay(1500).fadeIn("slow");
-		
+		$(".bg-banner, .load-video, #form-header, #banner h2, #banner h3").delay(1500).fadeIn("slow");
 	});
 });

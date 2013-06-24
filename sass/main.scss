@@ -198,22 +198,27 @@ header{
 					background:#E4E4E4;
 					position:relative;
 					top:6px;
+					width:66px;
 				}
 				img{
 					float:left;
 					margin-right:10px;
 				}
 			}
-			
 		}
 	}
 
 }
+
+.flag-footer{
+	position:relative;
+}
 .flag-footer ul{
-	display:block;
+	display:none;
 	background:#E4E4E4;
 	position:absolute;
-	top:6px;
+	top:26px;
+	left:8px;
 }
 .flag-footer:hover ul{
 	display:block !important;
@@ -226,7 +231,7 @@ header{
 	text-align:center;
 }
 .flag-header ul li{
-	width:50px;
+	width:55px;
 	margin: 0 auto;
 	text-align:center;
 }
@@ -614,7 +619,7 @@ header{
 				height: 40px;
 				@include border-radius(10px);
 				border:none;
-				background:#ff7200;
+				background:#F99F1C;
 				display:block;
 				color:#ffffff;
 				font-size:19px;
@@ -701,7 +706,7 @@ header{
 			text-align:right;
 			float:right;
 			margin-top:15px;
-			width:550px;
+			width:560px;
 			height:30px;
 		}
 	}

@@ -1,3 +1,4 @@
+
 @import "compass/reset";
 @import "compass";
 
@@ -92,6 +93,9 @@ p{
 .white{
 	width:100%;
 	background:#ffffff;
+}
+.only-mobile{
+	display:none;
 }
 
 // header
@@ -213,33 +217,36 @@ header{
 	}
 
 }
-.flag-footer{
-	position:relative;
+
+// flags
+
+.flag{
+	display:block;
+	width:35px;
+	float: right;
+	background:#272627;
+	height:10px;
+	padding:5px;
+	.us{
+		background:url("../img/assets/flag-us.gif") no-repeat 0 -11px;
+		display:block;
+		width: 14px;
+		height: 11px;
+		float:left;
+		margin-right: 5px;
+	}
+	.br{
+		background:url("../img/assets/flag-br.gif") no-repeat 0 -11px;
+		display:block;
+		width: 14px;
+		height: 11px;
+		float:left;
+	}
+	.flag-atv, .br:hover, .us:hover{
+		background-position:0 0 !important;
+	}
 }
-.flag-footer ul{
-	display:none;
-	background:#E4E4E4;
-	position:absolute;
-	top:26px;
-	left:8px;
-}
-.flag-footer:hover ul{
-	display:block !important;
-}
-.flag-header ul{
-	display:none;
-	background:#E4E4E4;
-	position:relative;
-	top:6px;
-}
-.flag-header ul li{
-	width:55px;
-	margin: 0 auto;
-	text-align:center;
-}
-.flag-header:hover ul{
-	display:block !important;
-}
+
 // banner
 
 .bg-banner{
@@ -638,7 +645,11 @@ header{
 	}
 	footer{
 		margin-top:30px;
-		
+
+		.flag{
+			float:left;
+			background:none;
+		}
 		.nav-footer{
 			border-top:1px solid #c7c7c7;
 			border-bottom:1px solid #c7c7c7;
@@ -646,52 +657,38 @@ header{
 			width:100%;
 
 			.map-site{
-				width:350px;
+				width:200px;
 				float:left;
 				display:block;
 				margin-top:2px;
-			}
-
-			.map-site li{
-				display:inline-block;
-				margin-right:10px;
-			}
-			.flag-footer{
-				display: inline-block;
-				padding:5px 7px;
-				font-size:14px;
-				cursor:pointer;
-
-				a:hover{
-					text-decoration:underline;
-				}
-				img{
-					float:left;
+				li{
+					display:inline-block;
 					margin-right:10px;
 				}
 			}
 			.social{
 				width: 120px;
 				float:right;
-			}
-			.social li{
-				display:inline-block;
-				margin-right:10px;
-				
-				.twitter{
-					background: url("../img/assets/twitter.jpg") no-repeat;
+
+				li{
+					display:inline-block;
+					margin-right:10px;
+					
+					.twitter{
+						background: url("../img/assets/twitter.jpg") no-repeat;
+					}
+					.facebook{
+						background: url("../img/assets/facebook.jpg") no-repeat;
+					}
+					.linkedin{
+						background: url("../img/assets/linkedin.jpg") no-repeat;
+					}
+					a{
+						display:block;
+						width: 27px;
+						height: 27px;
+					}
 				}
-				.facebook{
-					background: url("../img/assets/facebook.jpg") no-repeat;
-				}
-				.linkedin{
-					background: url("../img/assets/linkedin.jpg") no-repeat;
-				}
-			}
-			.social li a{
-				display:block;
-				width: 27px;
-				height: 27px;
 			}
 
 		}
